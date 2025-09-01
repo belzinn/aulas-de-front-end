@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Site one-page sobre meio ambiente: ações, projetos e dicas de sustentabilidade." />
+  <title>VerdeVivo • Meio Ambiente</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#inicio" aria-label="Início">
+        <span class="logo" aria-hidden="true"></span>
+        <span>VerdeVivo</span>
+      </a>
+      <nav aria-label="Principal">
+        <ul>
+          <li><a href="#missao">Missão</a></li>
+          <li><a href="#acoes">Ações</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="actions">
+        <button class="btn" id="modeBtn" aria-pressed="false" aria-label="Alternar tema">🌙</button>
+        <a class="btn" href="#acoes">Quero ajudar</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container">
+        <h1>Protegendo hoje o planeta de amanhã</h1>
+        <p>Educação ambiental, redução de resíduos e projetos de restauração. Junte-se a nós para construir cidades mais verdes e mares mais limpos.</p>
+        <div class="cta">
+          <a class="btn primary" href="#acoes">Começar agora</a>
+          <a class="btn secondary" href="#projetos">Ver projetos</a>
+        </div>
+      </div>
+      <svg class="wave" viewBox="0 0 1440 100" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" opacity=".12" d="M0,64L80,85.3C160,107,320,149,480,149.3C640,149,800,107,960,85.3C1120,64,1280,64,1360,64L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"/></svg>
+    </section>
+
+    <section id="missao" class="section">
+      <div class="container">
+        <h2>Nossa missão</h2>
+        <p class="muted">Promover ações simples e coletivas que diminuem o impacto ambiental, regeneram ecossistemas e colocam a natureza no centro das decisões.</p>
+        <div class="grid cards" style="margin-top:1rem;">
+          <div class="card">
+            <h3>Educação</h3>
+            <p>Conteúdos e oficinas sobre reciclagem, compostagem, mobilidade e consumo consciente.</p>
+          </div>
+          <div class="card">
+            <h3>Conservação</h3>
+            <p>Mutirões de limpeza, plantio de árvores nativas e monitoramento de áreas verdes urbanas.</p>
+          </div>
+          <div class="card">
+            <h3>Inovação</h3>
+            <p>Parcerias para soluções de energia limpa, reaproveitamento de água e economia circular.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="dados-titulo">
+      <div class="container">
+        <h2 id="dados-titulo">Impacto em números</h2>
+        <div class="grid stats" style="margin-top:1rem;">
+          <div class="stat">
+            <div class="num" data-target="12500">0</div>
+            <div class="muted">Kg de resíduos coletados</div>
+          </div>
+          <div class="stat">
+            <div class="num" data-target="5400">0</div>
+            <div class="muted">Árvores plantadas</div>
+          </div>
+          <div class="stat">
+            <div class="num" data-target="320">0</div>
+            <div class="muted">Ações comunitárias</div>
+          </div>
+          <div class="stat">
+            <div class="num" data-target="72">0</div>
+            <div class="muted">Bairros alcançados</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="acoes" class="section">
+      <div class="container">
+        <h2>Como você pode ajudar hoje</h2>
+        <div class="grid cards" style="margin-top:1rem;">
+          <div class="card">
+            <h3>Reduza</h3>
+            <p>Leve sua garrafa e sacola reutilizável. Diga não a descartáveis sempre que puder.</p>
+          </div>
+          <div class="card">
+            <h3>Reutilize</h3>
+            <p>Transforme potes em organizadores, faça compostagem caseira e conserte antes de comprar.</p>
+          </div>
+          <div class="card">
+            <h3>Recicle</h3>
+            <p>Separe papel, plástico, metal e vidro. Procure o ponto de coleta mais próximo.</p>
+          </div>
+          <div class="card">
+            <h3>Mobilidade</h3>
+            <p>Prefira caminhar, pedalar ou transporte público para reduzir emissões.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section">
+      <div class="container">
+        <h2>Projetos em destaque</h2>
+        <div class="project" style="margin-top:1rem;">
+          <div class="media">
+            <div class="photo" aria-label="Foto de reflorestamento">
+              <span class="caption">Refloresta Bairro</span>
+            </div>
+          </div>
+          <div>
+            <h3>Refloresta Bairro</h3>
+            <p class="muted">Parceria com escolas e moradores para plantar espécies nativas em praças, calçadas e áreas degradadas. Oficinas de manutenção e cuidado comunitário.</p>
+            <a class="btn" href="#contato">Quero participar</a>
+          </div>
+        </div>
+
+        <div class="grid gallery" style="margin-top:1rem;">
+          <div class="photo" aria-label="Mutirão de limpeza"><span class="caption">Mutirão de limpeza</span></div>
+          <div class="photo" aria-label="Horta comunitária"><span class="caption">Horta comunitária</span></div>
+          <div class="photo" aria-label="Oficina de compostagem"><span class="caption">Oficina de compostagem</span></div>
+          <div class="photo" aria-label="Captação de água da chuva"><span class="caption">Captação de água da chuva</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="container">
+        <h2>Vamos conversar</h2>
+        <p class="muted">Deixe seu e-mail ou mande uma mensagem. Retornamos em breve.</p>
+        <form class="news" onsubmit="return sendMsg(event)" aria-label="Formulário de contato">
+          <div class="inline" style="width:100%">
+            <label class="sr-only" for="nome">Nome</label>
+            <input id="nome" name="nome" placeholder="Seu nome" required />
+            <label class="sr-only" for="email">E-mail</label>
+            <input id="email" name="email" type="email" placeholder="Seu e-mail" required />
+          </div>
+          <label class="sr-only" for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="4" placeholder="Sua mensagem"></textarea>
+          <button class="btn primary" type="submit">Enviar</button>
+          <p id="resp" class="muted" role="status" aria-live="polite" style="margin: .6rem 0 0"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer">
+      <div>
+        <a class="brand" href="#inicio">
+          <span class="logo" aria-hidden="true"></span>
+          <span>VerdeVivo</span>
+        </a>
+        <p class="muted">© <span id="year"></span> VerdeVivo. Feito com ♻️ para um futuro melhor.</p>
+        <div class="social" aria-label="Redes sociais">
+          <a class="icon" href="#" aria-label="Instagram" title="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor"/><circle cx="12" cy="12" r="4" stroke="currentColor"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a>
+          <a class="icon" href="#" aria-label="YouTube" title="YouTube">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="3" stroke="currentColor"/><path d="M10 9.5v5l5-2.5-5-2.5Z" fill="currentColor"/></svg>
+          </a>
+          <a class="icon" href="#" aria-label="Twitter" title="Twitter">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M20 7.5c.6-.4 1.2-1 1.6-1.6-.6.2-1.3.5-2 .6.7-.4 1.2-1 1.4-1.9-.6.4-1.4.7-2.1.9A3.3 3.3 0 0 0 12 7.7a9.3 9.3 0 0 1-7-3.6s-1.8 4.2 2.6 6a3.4 3.4 0 0 1-2-.1c.1 2.2 1.6 3.9 4 4.4-.7.2-1.6.2-2.3.1.8 1.9 2.6 3.1 5 3.1A9.3 9.3 0 0 1 3 18.7 13 13 0 0 0 10.1 21c7.9 0 12.3-6.9 11.9-13.1.7-.5 1.3-1.2 1.8-1.9-.7.3-1.4.5-2.1.6Z" stroke="currentColor"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h4>Mapa do site</h4>
+        <ul style="list-style:none; padding:0; margin: .4rem 0 0">
+          <li><a href="#missao">Missão</a></li>
+          <li><a href="#acoes">Ações</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Transparência</h4>
+        <ul style="list-style:none; padding:0; margin: .4rem 0 0">
+          <li><a href="#">Relatórios</a></li>
+          <li><a href="#">Doações</a></li>
+          <li><a href="#">LGPD</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Ano dinâmico
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Tema claro/escuro
+    const modeBtn = document.getElementById('modeBtn');
+    const setMode = (isLight) => {
+      document.documentElement.classList.toggle('light', isLight);
+      modeBtn.textContent = isLight ? '☀️' : '🌙';
+      modeBtn.setAttribute('aria-pressed', String(isLight));
+      localStorage.setItem('vv_theme', isLight ? 'light' : 'dark');
+    };
+    setMode(localStorage.getItem('vv_theme') === 'light');
+    modeBtn.addEventListener('click', () => setMode(!document.documentElement.classList.contains('light')));
+
+    // Contadores animados
+    const counters = document.querySelectorAll('.num');
+    const easeOut = t => 1 - Math.pow(1 - t, 3);
+    const animateCounter = (el) => {
+      const target = +el.dataset.target;
+      const dur = 1400 + Math.random()*600;
+      const start = performance.now();
+      const step = (now) => {
+        const p = Math.min(1, (now - start)/dur);
+        el.textContent = Math.round(easeOut(p) * target).toLocaleString('pt-BR');
+        if(p < 1) requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
+    };
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e => { if(e.isIntersecting){ animateCounter(e.target.querySelector('.num')); io.unobserve(e.target); } });
+    }, { threshold:.5 });
+    document.querySelectorAll('.stat').forEach(s => io.observe(s));
+
+    // Form simulado
+    function sendMsg(ev){
+      ev.preventDefault();
+      const form = ev.target;
+      const data = Object.fromEntries(new FormData(form).entries());
+      const resp = document.getElementById('resp');
+      resp.textContent = 'Obrigado, ' + data.nome + '! Sua mensagem foi recebida.';
+      form.reset();
+      return false;
+    }
+  </script>
+</body>
+</html>
